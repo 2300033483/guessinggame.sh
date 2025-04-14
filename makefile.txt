@@ -1,0 +1,4 @@
+README.md:
+    echo "# Guessing Game Project" > README.md
+    echo "## Date and Time: $(shell date)" >> README.md
+    echo "## Number of Lines in guessinggame.sh: $(shell wc -l < guessinggame.sh)" >> README.md
